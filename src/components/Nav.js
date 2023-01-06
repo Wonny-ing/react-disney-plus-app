@@ -64,7 +64,7 @@ const Nav = () => {
           {' '}
           <Input onChange={handleChange} />{' '}
           <SignOut>
-            <UserImg src={userData.photoURL} alt={userData.displayName} />
+            {/* <UserImg src={userData.photoURL} alt={userData.displayName} /> */}
             <DropDown>
               <span onClick={handleLogOut}>Sign out</span>
             </DropDown>
